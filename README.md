@@ -28,7 +28,7 @@ WantedBy=multi-user.target
    
 ```sudo systemctl enable yourapp```
 
-8. Manage the service
+7. Manage the service
 Now that the service is configured, you can start, stop, restart, and check the status of your Node.js app.
 
 6.1 To start the service:
