@@ -1,0 +1,13 @@
+[Unit]
+Description=Your Node.js App
+Documentation=https://yourapp.com
+
+[Service]
+ExecStart=/usr/bin/node /path/to/your/app.js
+Restart=always
+User=your_username
+# If your Node.js app requires environment variables, uncomment the following line
+# Environment=VAR1=value1 VAR2=value2
+
+[Install]
+WantedBy=multi-user.target
